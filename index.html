@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Let's Do Some Math!</title>
+    <script src="vendors/jquery-3.2.1.min.js" charset="utf-8"></script>
+    <script src="scripts/client.js" charset="utf-8"></script>
+
+</head>
+
+<body>
+    <!-- houses everything so i can make it look pretty -->
+    <div id="containerOne">
+        <!-- input for X -->
+        <div id="inputDivX">
+            <input type="text" placeholder="number x" id="xguess" />
+            <button class="submit">Submit</button>
+        </div>
+        <br />
+        <!-- houses the math buttons -->
+
+        <select name="mathFunctions">
+            <option value="plus">+</option>
+            <option value="minus">-</option>
+            <option value="multiply">*</option>
+            <option value="divide">/</option>
+          </select>
+
+          <br />
+          <br />
+
+        <!-- input for Y -->
+        <div id="inputDivY">
+            <input type="text" placeholder="number y" id="yguess" />
+            <button class="submit">Submit</button>
+        </div>
+        <br />
+        <br />
+        <div>
+            <input type="text" placeholder="result" id="theResults" />
+        </div>
+
+        <button id="clear">clear</button>
+
+        <!-- end containerOne -->
+    </div>
+
+</body>
+
+</html>

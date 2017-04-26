@@ -4,25 +4,6 @@ $(document).ready(function(){
 
 $('#clear').on('click', clearCalculations);
 
-$('#plus').on('click', function() {
-    console.log("clicked plus");
-    setCalculations ('plus'); //make setCalculations function !!!!!
-  });
-
-$('#minus').on('click', function() {
-    console.log("clicked minus");
-    setCalculations ('minus');
-  });
-
-$('#multiply').on('click', function() {
-    console.log("clicked multiply");
-    setCalculations ('multiply');
-  });
-
-$('#divide').on('click', function() {
-    console.log("clicked divide");
-    setCalculations ('divide');
-  });
 
 
 // FUNCTIONS

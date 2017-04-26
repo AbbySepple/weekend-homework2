@@ -1,20 +1,9 @@
 
+var express = require('express');
 
-var result = [];
+var app = express();
 
-switch(calculations(x, y)) {
-    case plus:
-        code
-        break;
-    case minus:
-        code
-        break;
-    case multiply:
-        code
-      break;
-    case divide:
-      code
-      break;
-    default:
-        code block
-}
+
+app.listen(3007, function() {
+console.log("in the year 3007");
+});
